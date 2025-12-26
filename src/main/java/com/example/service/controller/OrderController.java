@@ -13,6 +13,6 @@ public class OrderController {
 
     @GetMapping("/orders")
     public String getOrders() {
-        return "List of orders";
+        return "List of orders!";
     }
 }
